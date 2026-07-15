@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<kmce-tag></kmce-tag>
+
+<script>
+class KMCETag extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = "WELCOME TO KMCE";
+    }
+}
+
+customElements.define("kmce-tag", KMCETag);
+</script>
+
+</body>
+</html>

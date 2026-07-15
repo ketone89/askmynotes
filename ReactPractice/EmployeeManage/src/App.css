@@ -1,0 +1,16 @@
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+button {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
